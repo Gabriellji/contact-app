@@ -56,7 +56,16 @@
 
   .main_wrap {
     display: flex;
-    min-width: 90%;
+    min-width: 650px;
+    max-width: 650px;
     border: 1px solid black;
   }
+
+  .info_wrap {
+    padding: 1rem;
+  }
   
+  .avatar_info {
+    width: 300px;
+    height: 300px;
+  }
