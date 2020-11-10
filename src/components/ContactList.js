@@ -11,7 +11,7 @@ class ContactList extends Component {
         online: true,
         email: 'undefined',
         info: "=)))))))",
-        lastVisit: Date(Date.now()).toString(),
+        lastVisit: Date(Date.now()).toString().split(' ').slice(0,5).toString(),
       },
       {
         name: "Motoko",
@@ -19,7 +19,7 @@ class ContactList extends Component {
         online: false,
         email: 'Motoko@mail.ru',
         info: "I am Motoko",
-        lastVisit: Date(Date.now()).toString(),
+        lastVisit: Date(Date.now()).toString().split(' ').slice(0,5).toString(),
       },
       {
         name: "Batou",
@@ -28,7 +28,7 @@ class ContactList extends Component {
         online: false,
         email: 'Batou@gmail.com',
         info: "Hello stranger!",
-        lastVisit: Date(Date.now()).toString(),
+        lastVisit: Date(Date.now()).toString().split(' ').slice(0,5).toString(),
       },
       {
         name: "Tachikoma",
@@ -37,7 +37,7 @@ class ContactList extends Component {
         online: true,
         email: 'Tachikoma@yahoo.com',
         info: "Hey there! I am Tachikoma, smart machine",
-        lastVisit: Date(Date.now()).toString(),
+        lastVisit: Date(Date.now()).toString().split(' ').slice(0,5).toString(),
       }
     ],
     selectedUser: {}
