@@ -29,11 +29,10 @@ class Contact extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      name: "Motoko",
-      avatar: "https://media2.giphy.com/media/imKrSqrDxAuvS/200.gif",
-      online: false,
-      email:'Motoko@mail.ru',
-      info: "I am Motoko"
+      name: "",
+      avatar: "",
+      email:'',
+      info: ""
     };
   }
   renderSquare(state) {
