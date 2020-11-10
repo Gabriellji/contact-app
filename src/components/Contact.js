@@ -35,7 +35,7 @@ class Contact extends React.Component {
       info: ""
     };
   }
-  renderSquare(state) {
+  renderInfo(state) {
     return <ContactInfo
     name={state.name}
     avatar={state.avatar}
@@ -66,7 +66,7 @@ class Contact extends React.Component {
         </div>
       </div>
       <div className="foarm">
-        {this.renderSquare(this.state)}
+        {this.renderInfo(this.state)}
       </div>
     </div>
     );
