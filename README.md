@@ -1,4 +1,4 @@
-# Click [here](https://simple-react-contact-app.netlify.app/) to check the App
+# <font color="gold">Click [here](https://simple-react-contact-app.netlify.app/) to check the App</font>
 
 ## Getting Started with Create React App
 
