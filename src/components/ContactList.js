@@ -15,7 +15,7 @@ class ContactList extends Component {
       },
       {
         name: "Motoko",
-        avatar: "https://media2.giphy.com/media/imKrSqrDxAuvS/200.gif",
+        avatar: "https://cdn.i-scmp.com/sites/default/files/styles/768x768/public/d8/images/methode/2019/12/04/8074a7ae-1194-11ea-82cd-148dc44829b8_image_hires_124128.jpg?itok=Kw7x6UoL&v=1575434493",
         online: false,
         email: 'Motoko@mail.ru',
         info: "I am Motoko",
@@ -24,7 +24,7 @@ class ContactList extends Component {
       {
         name: "Batou",
         avatar:
-          "https://otakuusamagazine.com/wp-content/uploads/2017/08/fp-batougits.jpg",
+          "https://i.pinimg.com/originals/fe/aa/fb/feaafb5d8c5039eee20a229c0deb3d00.jpg",
         online: false,
         email: 'Batou@gmail.com',
         info: "Hello stranger!",
@@ -33,14 +33,21 @@ class ContactList extends Component {
       {
         name: "Tachikoma",
         avatar:
-          "https://media1.tenor.com/images/9b7028c3ebbf6f91230166757a0a1f33/tenor.gif?itemid=17393395",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQH6UdlapuhtzKrOuc1HDQBu3rdUqiUYsTHkg&usqp=CAU",
         online: true,
         email: 'Tachikoma@yahoo.com',
-        info: "Hey there! I am Tachikoma, smart machine",
+        info: "I am Tachikoma, a smart machine!",
         lastVisit: Date(Date.now()).toString().split(' ').slice(0,5).toString(),
       }
     ],
-    selectedUser: {}
+    selectedUser: {
+      name: "Laughing-Man",
+      avatar: "https://upload.wikimedia.org/wikipedia/ru/6/63/Laughing-man.gif",
+      online: true,
+      email: 'undefined',
+      info: "=)))))))",
+      lastVisit: Date(Date.now()).toString().split(' ').slice(0,5).toString(),
+    }
   }
 
   getContact = ({ name, email, avatar, info, lastVisit, online }) => {

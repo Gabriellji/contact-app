@@ -1,12 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+* {
+  font-family: 'Press Start 2P', cursive;
+  box-sizing: border-box;
+  font-size: 12px;
+}
 /* Component enclosing tag */
 .Contact {
     padding: 1em;
     background: #555;
-    width: 250px;
+    width: 300px;
     display: flex;
     align-items: center;
-    margin: 1rem;
+    margin: 0.5rem 1rem;
+    border-radius: 15px;
     cursor: pointer;
+    transition: all .25s ease-in-out;
+  }
+
+  .Contact:hover {
+    background: #1c537c;
+    transform: scale(1.05);
+    
   }
   
   /* Contact image */
@@ -57,16 +71,32 @@
 
   .main_wrap {
     display: flex;
-    min-width: 650px;
     max-width: 650px;
-    border: 1px solid black;
+    border: 3px solid #5555559e;
+    border-radius: 15px;
   }
 
   .info_wrap {
     padding: 1rem;
   }
+
+  .text_wrap {
+    max-width: 100%;
+    text-align: start;
+  }
   
   .avatar_info {
     width: 300px;
     height: 300px;
+  }
+
+  .descr {
+    color: #3a94d7;
+    font-size: 9px;
+  }
+
+  @media screen and (max-width: 700px) {
+    .main_wrap {
+      flex-wrap: wrap;
+    }
   }
